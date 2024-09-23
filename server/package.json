@@ -1,0 +1,26 @@
+{
+  "name": "stable-diffusion-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A stable diffusion API for image processing",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cloudinary": "^2.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "openai": "^4.63.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
