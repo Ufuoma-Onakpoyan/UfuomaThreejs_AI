@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required for Node.js backend'",
+    "test": "echo 'No test specified' && exit 0"
   },
   "keywords": [],
   "author": "Your Name",
@@ -18,9 +20,18 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "mongoose": "^8.6.3",
-    "openai": "^4.63.0"
+    "openai": "^4.63.0",
+    "three": "^0.168.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
   }
 }
