@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useSnapshot } from "valtio";
-import state from "../Store/Index";
+import state from '../Store/Index';
 import { CustomButton } from "../Components";
 
 import {
