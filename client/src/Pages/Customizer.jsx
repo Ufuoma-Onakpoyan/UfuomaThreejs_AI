@@ -54,7 +54,7 @@ const Customizer = () => {
     try {
       setgeneratingImg(true);
   
-      const response = await fetch('http://localhost:5500/api/v1/stable-diffusion', {
+      const response = await fetch('https://ufuomathreejs-ai-1.onrender.com/api/v1/stable-diffusion', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
