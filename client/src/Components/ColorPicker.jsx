@@ -1,7 +1,7 @@
 import React from 'react'
 import { SketchPicker } from 'react-color'
 import { useSnapshot } from 'valtio'
-import state from '../Store';
+import state from '../Store/Index';
 
 const ColorPicker = () => {
   const snap = useSnapshot(state);
